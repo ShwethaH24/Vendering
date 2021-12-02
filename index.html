@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FruitShop</title>
+    <script type="text/javascript">
+    
+
+    
+ 
+        function printfruit (name){
+            
+        
+
+            if(name=="Apple"){
+                var rate=50;
+            var quantity=document.getElementById("name1").value;
+            var total=rate*quantity;
+            document.getElementById("print1").innerHTML=total;
+               
+            }
+            if(name=="Banana"){
+                var rate=40;
+            var quantity=document.getElementById("name2").value;
+            var total=rate*quantity;
+            document.getElementById("print2").innerHTML=total;
+            }
+            if(name=="Mango"){
+                var rate=45;
+            var quantity=document.getElementById("name3").value;
+            var total=rate*quantity;
+            document.getElementById("print3").innerHTML=total;
+            }
+            if(name=="Orange"){
+                var rate=40;
+            var quantity=document.getElementById("name4").value;
+            var total=rate*quantity;
+            document.getElementById("print4").innerHTML=total;
+            }
+            if(name=="Grapes"){
+                var rate=30;
+            var quantity=document.getElementById("name5").value;
+            var total=rate*quantity;
+            document.getElementById("print5").innerHTML=total;
+            }
+            if(name=="Pineapple"){
+                var rate=30;
+            var quantity=document.getElementById("name6").value;
+            var total=rate*quantity;
+            document.getElementById("print6").innerHTML=total;
+            }
+            if(name=="Papaya"){
+                var rate=10;
+            var quantity=document.getElementById("name7").value;
+            var total=rate*quantity;
+            document.getElementById("print7").innerHTML=total;
+            }
+            if(name=="Straberry"){
+                var rate=60;
+            var quantity=document.getElementById("name8").value;
+            var total=rate*quantity;
+            document.getElementById("print8").innerHTML=total;
+            }
+            if(name=="Cherry"){
+                var rate=40;
+            var quantity=document.getElementById("name9").value;
+            var total=rate*quantity;
+            document.getElementById("print9").innerHTML=total;
+            }
+            if(name=="Lemon"){
+                var rate=30;
+            var quantity=document.getElementById("name10").value;
+            var total=rate*quantity;
+            document.getElementById("print10").innerHTML=total;
+            }
+            if(name=="Watermelon"){
+                var rate=35;
+            var quantity=document.getElementById("name11").value;
+            var total=rate*quantity;
+            document.getElementById("print11").innerHTML=total;
+            }
+            if(name=="Pear"){
+                var rate=25;
+            var quantity=document.getElementById("name12").value;
+            var total=rate*quantity;
+            document.getElementById("print12").innerHTML=total;
+            }
+            if(name=="kiwi"){
+                var rate=50;
+            var quantity=document.getElementById("name13").value;
+            var total=rate*quantity;
+            document.getElementById("print13").innerHTML=total;
+            }
+            if(name=="Avocado"){
+                var rate=45;
+            var quantity=document.getElementById("name14").value;
+            var total=rate*quantity;
+            document.getElementById("print14").innerHTML=total;
+            }
+            if(name=="Fig"){
+                var rate=30;
+            var quantity=document.getElementById("name15").value;
+            var total=rate*quantity;
+            document.getElementById("print15").innerHTML=total;
+            
+            }
+        }
+    </script>
+    <style>
+img{
+            width: 200px;
+            height: 200px;
+}
+button{
+            margin-left: 50px;
+}
+td{
+    border-color:black;
+}
+        
+            
+        
+    </style>
+</head>
+
+<body>
+    
+
+    <div>
+        <table>
+            <tr>
+                <td>
+
+                    
+                    <img src="https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?b=1&k=20&m=185262648&s=170667a&w=0&h=2ouM2rkF5oBplBmZdqs3hSOdBzA4mcGNCoF2P0KUMTM="alt="https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?b=1&k=20&m=185262648&s=170667a&w=0&h=2ouM2rkF5oBplBmZdqs3hSOdBzA4mcGNCoF2P0KUMTM="><br>
+                    <button onclick="printfruit('Apple')"> <b>Apple</b></button>
+                    <input type="number" placeholder="Quantity" id="name1">
+                    <p id="print1"></p>
+                </td>
+                <td>
+                    <img src="https://cdn.mos.cms.futurecdn.net/kzMYKaqQhtY2EzL7GABdah-1024-80.jpg.webp "alt="https://cdn.mos.cms.futurecdn.net/kzMYKaqQhtY2EzL7GABdah-1024-80.jpg.webp "><br>                 
+                    <button onclick="printfruit('Banana')"><b>Banana</b></button>
+                    <input type="number" placeholder="Quantity" id="name2">
+                    <p id="print2"></p>
+                </td>
+                <td>
+                    <img src="https://m.media-amazon.com/images/I/41EvGpCFECL.jpg" alt="https://m.media-amazon.com/images/I/41EvGpCFECL.jpg"><br>
+                    <button onclick="printfruit('Mango')"><b>Mango</b></button>
+                    <input type="number" placeholder="Quantity" id="name3">
+                    <p id="print3"></p>
+                </td>
+                <td>
+                    <img src="https://cdn.britannica.com/24/174524-050-A851D3F2/Oranges.jpg"alt="https://cdn.britannica.com/24/174524-050-A851D3F2/Oranges.jpg"><br>
+                    <button onclick="printfruit('Orange')"><b>Orange</b></button>
+                    <input type="number" placeholder="Quantity" id="name4">
+                    <p id="print4"></p>
+                </td>
+                <td>
+                    <img src="https://medicalnewsbulletin.com/wp-content/uploads/2021/04/how-healthy-are-grapes.jpg" alt="https://medicalnewsbulletin.com/wp-content/uploads/2021/04/how-healthy-are-grapes.jpg"><br>
+                    <button onclick="printfruit('Grapes')"><b>Grapes</b></button>
+                    <input type="number" placeholder="Quantity" id="name5">
+                    <p id="print5"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://www.earthytales.in/uploads/products/fresh-pineapple-281kg-29-500x5001.png" alt="https://www.earthytales.in/uploads/products/fresh-pineapple-281kg-29-500x5001.png"><br>
+                    <button onclick="printfruit('Pineapple')"><b>Pineapple</b></button>
+                    <input type="number" placeholder="Quantity" id="name6">
+                    <p id="print6"></p>
+                </td>
+                <td>
+                    <img src="https://i.cdn.newsbytesapp.com/images/l205_28711605114188.jpg" alt="https://i.cdn.newsbytesapp.com/images/l205_28711605114188.jpg"><br>
+                    <button onclick="printfruit('Papaya')"><b>Papaya</b></button>
+                    <input type="number" placeholder="Quantity" id="name7">
+                    <p id="print7"></p>
+                </td>
+                <td>
+                    <img src="https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg?resize=768:*" alt="https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg?resize=768:*"><br>
+                    <button onclick="printfruit('Straberry')"><b>Straberry</b></button>
+                    <input type="number" placeholder="Quantity" id="name8">
+                    <p id="print8"></p>
+                </td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Italienische_S%C3%BC%C3%9Fkirschen.JPG/800px-Italienische_S%C3%BC%C3%9Fkirschen.JPG" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Italienische_S%C3%BC%C3%9Fkirschen.JPG/800px-Italienische_S%C3%BC%C3%9Fkirschen.JPG"><br>
+                    <button onclick="printfruit('Cheery')"><b>Cherry</b></button>
+                    <input type="number" placeholder="Quantity" id="name9">
+                    <p id="print9"></p>
+                </td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Lemon.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/e/e4/Lemon.jpg"><br>
+                    <button onclick="printfruit('Lemon')"><b>Lemon</b></button>
+                    <input type="number" placeholder="Quantity" id="name10">
+                    <p id="print10"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/watermelon.jpg?itok=6EdNOdUo" alt="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/watermelon.jpg?itok=6EdNOdUo"><br>
+                    <button onclick="printfruit('Watermelon')"><b>Watermelon</b></button>
+                    <input type="number" placeholder="Quantity" id="name11">
+                    <p id="print11"></p>
+                </td>
+                <td>
+                    <img src="https://www.jiomart.com/images/product/600x600/590040932/pears-imported-green-3-pcs-pack-0-20201031.jpg" alt="https://www.jiomart.com/images/product/600x600/590040932/pears-imported-green-3-pcs-pack-0-20201031.jpg"><br>
+                    <button onclick="printfruit('Pear')"><b>Pear</b></button>
+                    <input type="number" placeholder="Quantity" id="name12">
+                    <p id="print12"></p>
+                </td>
+                <td>
+                    <img src="https://m.media-amazon.com/images/I/81gxzW7UHKL._SL1500_.jpg" alt="https://m.media-amazon.com/images/I/81gxzW7UHKL._SL1500_.jpg"><br>
+                    <button onclick="printfruit('Kiwi')"><b>Kiwi</b></button>
+                    <input type="number" placeholder="Quantity" id="name13">
+                    <p id="print13"></p>
+                </td>
+                <td>
+                    <img src="https://5.imimg.com/data5/ML/WM/MY-67221729/avacoda-fruit-250x250.jpg"><br>
+                    <button onclick="printfruit('Avocodo')"><b>Avocado</b></button>
+                    <input type="number" placeholder="Quantity" id="name14">
+                    <p id="print14"></p>
+                </td>
+                <td>
+                    <img src="https://www.thespruceeats.com/thmb/0WZGzDspbg8E7969AA3iJWy4MO0=/2124x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FigVarieties-5703d7c15f9b581408aea431.jpg" alt="https://www.thespruceeats.com/thmb/0WZGzDspbg8E7969AA3iJWy4MO0=/2124x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FigVarieties-5703d7c15f9b581408aea431.jpg"><br>
+                    <button onclick="printfruit('Fig')"><b><Fig</b></button>
+                    <input type="number" placeholder="Quantity" id="name15">
+                    <p id="print15"></p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
